@@ -1,6 +1,6 @@
 {% set name = "eli5" %}
-{% set version = "0.7" %}
-{% set sha256hash = "0fbba628fd39e39ecd4257be8ed0194991a9e363d171ed5348263c1e372186cc" %}
+{% set version = "0.8" %}
+{% set sha256hash = "4d66885d8ccc37a723143184908e05c5b111d94af1c95d8af4ee13501d11d867" %}
 
 package:
   name: {{ name|lower }}
@@ -13,6 +13,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:

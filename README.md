@@ -16,9 +16,7 @@ and explain their predictions.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/eli5-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/eli5-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/eli5-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/eli5-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/eli5-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/eli5-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/eli5-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/eli5-feedstock)
 
 Current release info
 ====================
