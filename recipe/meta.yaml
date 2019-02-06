@@ -1,6 +1,6 @@
 {% set name = "eli5" %}
-{% set version = "0.8" %}
-{% set sha256hash = "4d66885d8ccc37a723143184908e05c5b111d94af1c95d8af4ee13501d11d867" %}
+{% set version = "0.8.1" %}
+{% set sha256hash = "b1b70d47eb91e2099df60fc8208305467936c039ef52b03438da1bc440c8e72a" %}
 
 package:
   name: {{ name|lower }}
@@ -14,12 +14,12 @@ source:
 build:
   number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - attrs >16.0.0
