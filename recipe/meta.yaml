@@ -1,5 +1,5 @@
 {% set name = "eli5" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 {% set sha256hash = "b1b70d47eb91e2099df60fc8208305467936c039ef52b03438da1bc440c8e72a" %}
 
 package:
