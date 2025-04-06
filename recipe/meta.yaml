@@ -1,5 +1,5 @@
 {% set name = "eli5" %}
-{% set version = "0.13.0" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,8 +7,8 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ec8459eaaf09d66743c53a7bdb115c6cda7e533d7a5d02a5a8bb717ee843eb37
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 711630def601707b3d37aa3c33d39a1d212bb8017b558a7b6424bae1c320a303
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - scipy
     - singledispatch >=3.4.0.3
     - six
-    - scikit-learn >=0.20
+    - scikit-learn >=1.6.0
     - python-graphviz
     - tabulate >=0.7.7
 
